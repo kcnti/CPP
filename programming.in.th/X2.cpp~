@@ -1,7 +1,0 @@
-#include <iostream>
-using namespace std;
-
-int main(){
-	int s, x;
-	cout << (s*2) - x << endl;
-}

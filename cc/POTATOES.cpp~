@@ -1,0 +1,18 @@
+#include <bits/stdc++.h>
+
+int main() {
+	int n;std::cin >> n;
+	while(n--) {
+		int x,y;
+		std::cin >> x >> y;
+		int ans=1;
+		int sum = x+y+1;
+		for(int i=2;i<sum;i++) {
+			if(sum%i==0) {
+				ans++;
+			}
+			if(sum%i!=0) break;
+		}
+		std::cout << ans << std::endl;
+	}
+}

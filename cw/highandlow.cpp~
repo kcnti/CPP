@@ -1,0 +1,26 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+string highAndLow(string &numbers){
+	int fnum = numbers.at(0);
+	int lnums {};
+	int snums {};
+	for(int i {}; i <= numbers.size(); ++i){
+		if (fnum > i){
+			lnums = fnum;
+		} else if (fnum < i){
+			snums = fnum;
+		} else {
+			cout << "baba";
+		}
+	}
+	cout << lnums << "" << snums;
+}
+
+int main(){
+	string text;
+	getline(cin, text);
+	highAndLow(text);
+	return 0;
+}

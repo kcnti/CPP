@@ -42,7 +42,6 @@ int main() {
 			continue;
 		}
 		cnts++;
-		// std::cout << cnts << std::endl;
 		if(i == input.length()-1 && cnts<8) {
 			std::cout << "Invalid : too short" << std::endl;
 			ans = false;

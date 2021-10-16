@@ -1,4 +1,0 @@
--ID:\__PROJ\_WORK\coding\C++\CPPWorkspace\Program
--std=c++17
--target
-i686-pc-windows-gnu
